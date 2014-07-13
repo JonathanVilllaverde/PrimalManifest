@@ -74,6 +74,11 @@
         <outputDirectory>target/${project.artifactId}/WEB-INF/classes</outputDirectory> 
                                    
         <plugins>
+             <plugin>
+		  <groupId>com.google.appengine</groupId>
+                  <artifactId>appengine-maven-plugin</artifactId>
+	     </plugin>
+	     
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>

@@ -36,7 +36,7 @@ public class DemoServlet extends HttpServlet {
         response.setHeader("Access-Control-Allow-Headers", "Content-Type");
         response.setHeader("Access-Control-Max-Age", "86400");
 
-        out.println("{ \"name\": \"This is a ss\" }");
+        out.println("{ \"name\": \" Primal Manifest is up\" }");
         out.close();
         
     }
